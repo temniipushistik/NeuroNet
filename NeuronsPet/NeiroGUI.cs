@@ -25,12 +25,12 @@ namespace NeuronsPet
             if (vodkaCheckBox.Checked == true)
             {
                 SwitchOn.Vodka = 1;
-                result.Text = "Водка включена";
+                // result.Text = "Водка включена";
             }
             else 
             {
                 SwitchOn.Vodka = 0;
-                result.Text = "Водка выключена";
+                // result.Text = "Водка выключена";
             }
 
 
@@ -41,12 +41,12 @@ namespace NeuronsPet
             if (RainCheckBox.Checked == true)
             {
                 SwitchOn.Rain = 1;
-                result.Text = "дождь включен";
+                // result.Text = "дождь включен";
             }
             else
             {
                 SwitchOn.Rain = 0;
-                result.Text = "дождь выключен";
+                // result.Text = "дождь выключен";
             }
         }
 
@@ -55,18 +55,29 @@ namespace NeuronsPet
             if (bestFriendCheckBox.Checked == true)
             {
                 SwitchOn.Friend = 1;
-                result.Text = "друг включен";
+               // result.Text = "друг включен";
             }
             else
             {
                 SwitchOn.Friend = 0;
-                result.Text = "друг выключен";
+                //result.Text = "друг выключен";
             }
         }
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            SwitchOn.CreateArray();
+            SwitchOn.AttachArray();
+            SwitchOn.NeuroAnalysis01();
+            //SwitchOn.NeuroAnalysis02();
+            if (SwitchOn.CheckedToHandOut() == true)
+            {
+                result.Text = "Иди тусить";
+            }
+            else
+            {
+                result.Text = "останься дома";
+            }
+
         }
     }
 }
