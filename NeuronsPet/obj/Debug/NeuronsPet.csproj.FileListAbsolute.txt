@@ -1,0 +1,10 @@
+C:\Users\Gennady\source\repos\NeuronsPet\NeuronsPet\bin\Debug\NeuronsPet.exe.config
+C:\Users\Gennady\source\repos\NeuronsPet\NeuronsPet\bin\Debug\NeuronsPet.exe
+C:\Users\Gennady\source\repos\NeuronsPet\NeuronsPet\bin\Debug\NeuronsPet.pdb
+C:\Users\Gennady\source\repos\NeuronsPet\NeuronsPet\obj\Debug\NeuronsPet.csprojAssemblyReference.cache
+C:\Users\Gennady\source\repos\NeuronsPet\NeuronsPet\obj\Debug\NeuronsPet.NeiroGUI.resources
+C:\Users\Gennady\source\repos\NeuronsPet\NeuronsPet\obj\Debug\NeuronsPet.Properties.Resources.resources
+C:\Users\Gennady\source\repos\NeuronsPet\NeuronsPet\obj\Debug\NeuronsPet.csproj.GenerateResource.cache
+C:\Users\Gennady\source\repos\NeuronsPet\NeuronsPet\obj\Debug\NeuronsPet.csproj.CoreCompileInputs.cache
+C:\Users\Gennady\source\repos\NeuronsPet\NeuronsPet\obj\Debug\NeuronsPet.exe
+C:\Users\Gennady\source\repos\NeuronsPet\NeuronsPet\obj\Debug\NeuronsPet.pdb
