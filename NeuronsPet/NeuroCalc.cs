@@ -14,6 +14,9 @@ namespace NeuronsPet
         public double Rain { get; set; }
         public double Friend { get; set; }
 
+        //свойство, генерирующее плавный переход от 0 к 1 вместо больше/меньше 0,5
+        public double Sygmoid { get; set; }
+
 
         //массив с весом скрытого первого нейрона
         double[] hiddenNeuron01ArrWeight = new double[3] { 0.25, 0.25, 0 };
@@ -60,9 +63,6 @@ namespace NeuronsPet
                 return null;
             }
 
-
-
-
         }
         
         public double NeuroAnalysis01()
@@ -78,8 +78,7 @@ namespace NeuronsPet
                 return -1;
             else
                 return 0;
-                         
-                       
+                           
         }
 
         public double NeuroAnalysis02()
@@ -97,13 +96,9 @@ namespace NeuronsPet
             else
                 return 0;
             
-           
-
         }
 
-
-
-        // идти или нет на вечеринку
+       // идти или нет на вечеринку
         public Boolean CheckedToHandOut()
         {
             if (NeuroAnalysis02() + NeuroAnalysis01() >= 0.5)
@@ -112,9 +107,6 @@ namespace NeuronsPet
             { return false; }
         }
 
-
     }
-
-
 
 }
